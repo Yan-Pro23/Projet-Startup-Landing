@@ -1,0 +1,402 @@
+/* Styles pour les petits écrans (mobile) : par défaut */
+body {
+  font-size: 16px;
+  margin: 0;
+}
+/* Styles pour les écrans plus larges (tablette, desktop) */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+};
+
+.violet {
+  color: purple
+}
+__________________________________________________________________________________________________
+/* Style de la header */
+header {
+  position: fixed;       /* Reste fixé en haut */
+  top: 0;
+  left: 0;
+  width: 100%;           /* Prend toute la largeur */
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  z-index: 1000;         /* Pour rester au-dessus du contenu */
+  justify-content: center;
+}
+
+ /* Logo */
+ #logo_Startup_Landing img {
+  max-height: 50px;      /* Ajuste la hauteur de ton logo */
+}
+
+/* Navigation horizontale */
+nav.navigateur ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+nav.navigateur ul li {
+  margin: 0 15px;
+}
+
+nav.navigateur ul li a {
+  text-decoration: none;
+  color: #333;
+  
+}
+
+nav.navigateur ul li a:hover {
+  color: purple;
+}
+
+/* Bouton d'inscription */
+.login.container button {
+  padding: 10px 20px;
+  right: 200px;
+  float: right;
+  background-color: #fff;
+  color: none;
+  border: purple;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.login.container button:hover {
+  background-color: purple  ;
+}
+
+/* Espace en haut du contenu pour ne pas être masqué par le header fixe */
+.content {
+  padding-top: 50px; /* Ajuste en fonction de la hauteur du header */
+}
+__________________________________________________________________________________________________
+/*Style main*/
+
+#Domicile {
+  background-color: #e0dddd78;
+}
+
+#D1 h3 {
+  font-weight: 800;
+}
+
+#D2 img {
+  float: right;
+  margin-left: auto;
+  margin-top: -1%;
+}
+
+#D4 img {
+  float: right;
+  margin-left: auto;
+  margin-top: -8%;
+}
+
+
+span {
+  display: flex;
+}
+
+.incription {
+  display: flex;
+  margin-top: 20px;
+}
+
+.incription input {
+  padding: 10px;
+  width: 70%;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.incription button {
+  padding: 10px 20px;
+  background: #a64ac9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+
+#play-button {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 64px; 
+    color: #fff; 
+    text-shadow: 0 0 10px #000; 
+    cursor: pointer;
+}
+
+#I7 {
+    width: 560px; 
+    height: 315px; 
+    object-fit: cover; 
+    display: block;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 30%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.comments {
+  font-size: 14px;
+  color: gray;
+}
+
+.features {
+  padding: 50px 10%;
+}
+
+.subtitle {
+  color: #a64ac9;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.features h2 {
+  font-size: 2rem;
+  color: #1c1e21;
+  margin-bottom: 30px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.feature {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 22%;
+  text-align: center;
+}
+
+.feature img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.customer-comments {
+  width: 80%;
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #a64ca6;
+  margin-bottom: 5px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.comment-text {
+  font-size: 20px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.review {
+  text-align: center;
+}
+
+.review img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+ /* Réinitialisation de base */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 15px;
+  height: auto;
+}
+
+.hire-section {
+  background-color: #8A3B7A;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  text-align: justify;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hire-btn {
+  background-color: white;
+  color: #8A3B7A;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hire-btn:hover {
+  background-color: #e6e6e6;
+}
+__________________________________________________________________________________________________
+/* FOOTER */
+footer {
+  width: 100%;            /* Occupe toute la largeur */
+  background-color: #ffffff; /* Fond sombre */
+  color: #333;            /* Texte en blanc */
+  display: flex;          /* Flexbox pour aligner les éléments */
+  align-items: center;    /* Centre verticalement */
+  justify-content: space-between; /* Répartit l'espace entre les éléments */
+  padding: 20px;          /* Espacement interne */
+  flex-wrap: wrap;        /* Permet de s'adapter en responsive */
+}
+
+/* LOGO */
+footer #logo_Startup_Landing img {
+  max-height: 50px;       /* Ajuste la taille du logo */
+}
+
+/* TEXTE DU COPYRIGHT */
+footer div p {
+  text-align: center;     /* Centre le texte */
+  font-size: 15px;        /* Ajuste la taille du texte */
+  display: flex;
+  
+}
+
+/* NAVIGATION DANS LE FOOTER */
+nav.navigateur1 ul {
+  list-style: none;
+  display: flex;          /* Affichage horizontal */
+  align-items: center;    /* Alignement vertical */
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  font-size: 15px;
+}
+nav.navigateur1 ul li {
+  margin: 0 15px;         /* Espacement entre les liens */
+}
+
+nav.navigateur1 ul li a {
+  text-decoration: none;
+  color: #000;           /* Couleur des liens */
+}
+
+nav.navigateur1 ul li a:hover {
+  color: purple;       /* Changement de couleur au survol */
+}
+
+/* RESPONSIVE - Adaptation pour petits écrans */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;  /* Passe en colonne sur mobile */
+    text-align: center;
+  }
+  
+  nav.navigateur1 ul {
+    flex-direction: column;  /* Liens en colonne */
+  }
+
+  nav.navigateur1 ul li {
+    margin: 5px 0;  /* Espacement réduit en mobile */
+  };
+};
