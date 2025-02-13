@@ -27,7 +27,7 @@ header {
   border-bottom: 1px solid #ddd;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center space-between;
   padding: 10px 20px;
   z-index: 1000;         /* Pour rester au-dessus du contenu */
   justify-content: center;
@@ -47,6 +47,7 @@ nav.navigateur ul {
   margin: 0;
   text-align: center;
   width: 100%;
+  justify-content: center;
 }
 
 nav.navigateur ul li {
