@@ -39,6 +39,16 @@ header {
 }
 
 /* Navigation horizontale */
+.login{
+  position: relative;
+  bottom: 60px;
+}
+
+.navigateur {
+  position: relative;
+  left: 30px;
+  bottom: 20px;
+}
 nav.navigateur ul {
   list-style: none;
   display: flex;
@@ -350,6 +360,8 @@ footer {
   flex-wrap: wrap;        /* Permet de s'adapter en responsive */
 }
 
+
+
 /* LOGO */
 footer #logo_Startup_Landing img {
   max-height: 50px;       /* Ajuste la taille du logo */
@@ -362,6 +374,13 @@ footer div p {
   display: flex;
   
 }
+.para_footer{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 25px;
+  right: 50px;
+}
 
 /* NAVIGATION DANS LE FOOTER */
 nav.navigateur1 ul {
@@ -373,8 +392,19 @@ nav.navigateur1 ul {
   text-align: right;
   font-size: 15px;
 }
+.flex {
+  display: flex;
+  
+}
 nav.navigateur1 ul li {
   margin: 0 15px;         /* Espacement entre les liens */
+}
+
+.navigateur1{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 85px;
 }
 
 nav.navigateur1 ul li a {
