@@ -46,8 +46,9 @@ header {
 
 .navigateur {
   position: relative;
-  left: 30px;
+  right: 35px;
   bottom: 20px;
+  margin-top: -10px;
 }
 nav.navigateur ul {
   list-style: none;
@@ -77,7 +78,7 @@ nav.navigateur ul li a:hover {
 /* Bouton d'inscription */
 .login.container button {
   padding: 10px 20px;
-  right: 200px;
+  right: 290px;
   float: right;
   background-color: #fff;
   color: none;
@@ -85,6 +86,7 @@ nav.navigateur ul li a:hover {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.5s ease;
+  margin-top: 5px;
 }
 
 .login.container button:hover {
@@ -115,9 +117,26 @@ ________________________________________________________________________________
 #D4 img {
   float: right;
   margin-left: auto;
-  margin-top: -8%;
+  margin-top: -12%;
+  margin-right: -10%;
 }
 
+.flex{
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+.flex1{
+  margin-top: -3%;
+}
+
+.bosster{
+  margin-left: 10%;
+}
+
+.violet{
+  color: #8A3B7A;
+}
 
 span {
   display: flex;
@@ -211,6 +230,11 @@ span {
   color: #a64ac9;
   font-weight: bold;
   margin-bottom: 10px;
+  padding-left: 330px;
+}
+
+.titre{
+  text-align: center;
 }
 
 .features h2 {
@@ -276,6 +300,7 @@ span {
   color: #333;
   line-height: 1.6;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .reviews {
@@ -303,7 +328,7 @@ span {
 
 body {
   font-family: Arial, sans-serif;
-  margin: 15px;
+  margin: 25px;
   height: auto;
 }
 
@@ -313,6 +338,8 @@ body {
   padding: 40px 20px;
   border-radius: 10px;
   margin: 40px auto;
+  margin-top: 80px;
+  margin-bottom: 60px;
   max-width: 90%;
   display: flex;
   justify-content: space-between;
@@ -322,8 +349,9 @@ body {
 .content h2 {
   font-size: 24px;
   font-weight: bold;
-  margin: 0;
-  text-align: justify;
+  margin-left: 30;
+  text-align: left;
+  margin-top: -22px;
 }
 
 .button-container {
@@ -346,6 +374,19 @@ body {
 
 .hire-btn:hover {
   background-color: #e6e6e6;
+}
+
+.tec{
+  text-align: center;
+}
+
+.video-container{
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  position: absolute;
+  margin-top: 40px;
+  top: 0; bottom: 0; left: 0; right: 0;
 }
 __________________________________________________________________________________________________
 /* FOOTER */
@@ -397,7 +438,7 @@ nav.navigateur1 ul {
   
 }
 nav.navigateur1 ul li {
-  margin: 0 15px;         /* Espacement entre les liens */
+  margin: 0 10px;         /* Espacement entre les liens */
 }
 
 .navigateur1{
