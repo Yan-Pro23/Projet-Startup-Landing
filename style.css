@@ -457,18 +457,45 @@ nav.navigateur1 ul li a:hover {
   color: purple;       /* Changement de couleur au survol */
 }
 
-/* RESPONSIVE - Adaptation pour petits écrans */
-@media (max-width: 768px) {
-  footer {
-    flex-direction: column;  /* Passe en colonne sur mobile */
-    text-align: center;
-  }
-  
-  nav.navigateur1 ul {
-    flex-direction: column;  /* Liens en colonne */
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .hero-content h1 {
+      font-size: 2rem;
   }
 
-  nav.navigateur1 ul li {
-    margin: 5px 0;  /* Espacement réduit en mobile */
-  };
-};
+  .activity-card {
+      margin-bottom: 1rem;
+  }
+
+  .social-links a {
+      font-size: 1.2rem;
+      margin: 0 0.5rem;
+  }
+
+  .development-banner {
+      font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-content h1 {
+      font-size: 1.5rem;
+  }
+
+  .activities {
+      padding: 2rem 1rem;
+  }
+
+  .logo {
+      font-size: 1.2rem;
+  }
+
+  .slogan {
+      font-size: 0.8rem;
+  }
+
+  .logo-image {
+      width: 40px;
+      height: 40px;
+  }
+}
